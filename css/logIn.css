@@ -1,0 +1,450 @@
+
+@font-face {
+                          font-family: "Arial-ItalicMT";
+                          src: url('../fonts/Arial Italic.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "Arial-BoldItalicMT";
+                          src: url('../fonts/Arial Bold Italic.ttf') format("truetype");
+                        }
+                        
+.login {
+  width               : 100%;
+  min-width           : 1280px;
+  height              : 100vh;
+  min-height          : 921px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(236, 143, 106, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.login .titlebarbg {
+  background-color    : rgba(197, 203, 227, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .titlebarcontrols {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 113px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1167px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .titlebarcontrols .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 113px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .titlebarcontrols .minimise {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 2px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .titlebarcontrols .maximise {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 12px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .titlebarcontrols .close {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .titlebarcontrols1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 113px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1167px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .titlebarcontrols1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 113px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .titlebarcontrols1 .minimise {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 2px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .titlebarcontrols1 .maximise {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 12px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .titlebarcontrols1 .close {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .rectangle {
+  background-color    : rgba(241, 60, 32, 1.0);
+  top                 : 735px;
+  height              : 72px;
+  box-sizing          : border-box;
+  width               : 379px;
+  position            : absolute;
+  margin              : 0;
+  left                : 450px;
+  border-radius       : 8px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .signin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 749px;
+  height              : auto;
+  width               : 434px;
+  position            : absolute;
+  margin              : 0;
+  left                : 422px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 34.0px;
+}
+.login .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 303px;
+  height              : 2px;
+  width               : 328px;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .inputtex {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 279px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-ItalicMT", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(97, 94, 94, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.login .line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 361px;
+  height              : 2px;
+  width               : 328px;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .inputtex1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 337px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-ItalicMT", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(97, 94, 94, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.login .line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 419px;
+  height              : 2px;
+  width               : 328px;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .inputtex2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 395px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-ItalicMT", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(97, 94, 94, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.login .line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 472px;
+  height              : 2px;
+  width               : 328px;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .inputtex3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 448px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-ItalicMT", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(97, 94, 94, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.login .line4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 534px;
+  height              : 2px;
+  width               : 328px;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .inputtex4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 510px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-ItalicMT", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(97, 94, 94, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.login .signup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 180px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 289px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 41.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : left;
+  line-height         : 47.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

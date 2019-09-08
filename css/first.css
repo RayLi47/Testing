@@ -1,0 +1,250 @@
+
+@font-face {
+                          font-family: "Arial-ItalicMT";
+                          src: url('../fonts/Arial Italic.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "Arial-BoldItalicMT";
+                          src: url('../fonts/Arial Bold Italic.ttf') format("truetype");
+                        }
+
+.first {
+  width               : 100%;
+  min-width           : 1280px;
+  height              : 100vh;
+  min-height          : 921px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(236, 143, 106, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.first .titlebarbg {
+  background-color    : rgba(197, 203, 227, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 1280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.first .titlebarcontrols {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 113px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1167px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.first .titlebarcontrols .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 113px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.first .titlebarcontrols .minimise {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 2px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.first .titlebarcontrols .maximise {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 12px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.first .titlebarcontrols .close {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.first .titlebarcontrols1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 113px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1167px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.first .titlebarcontrols1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 113px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.first .titlebarcontrols1 .minimise {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 2px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.first .titlebarcontrols1 .maximise {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 12px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.first .titlebarcontrols1 .close {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+
+  {
+      opacity: 0;
+    }
+
+
+  100%
+
+  {
+      opacity: 1;
+    }
+}

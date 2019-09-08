@@ -1,0 +1,194 @@
+
+@font-face {
+  font-family: "Arial-ItalicMT";
+  src: url('../fonts/Arial Italic.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Arial-BoldItalicMT";
+  src: url('../fonts/Arial Bold Italic.ttf') format("truetype");
+}
+
+body {
+  margin: 0;
+}
+
+.body {
+  width               : 100%;
+  height              : 100vh;
+  min-height          : 965px;
+  position            : relative;
+  margin              : 0px;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration     : none;
+}
+h1 {
+  text-align: center;
+}
+.titlebar {
+  background: rgba(239, 75, 75, 1);
+  height: 50px;
+}
+
+.info {
+  padding-top         : 5px;
+  height              : auto;
+  width               : auto;
+  position            : relative;
+  padding-left        : 10px;
+  padding-right       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-weight         : 200;
+  font-style          : normal;
+  font-family         : "Arial-BoldItalicMT", Helvetica, Arial, serif;
+  font-size           : 23.0px;
+  color               : rgba(35, 255, 215, 1);
+  text-align          : center;
+  line-height         : 27.0px;
+
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+
+.bitmap {
+
+  height              : 591px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+}
+.b1 {
+  left              : -103px;
+  top                 : 9%;
+}
+.b2 {
+  left                : calc(25% - 103px);
+  top                 : 22%;
+}
+.b3 {
+  left                : calc(50% - 103px);
+  top                 : 9%;
+}
+.b4 {
+  left                : calc(75% - 103px);
+  top                 : 22%;
+}
+.b5 {
+  width               : 103px;
+  right               : 0;
+  top                 : 9%;
+
+}
+
+.udog {
+  padding-top         : 50px;
+  height              : auto;
+  width               : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 78.0px;
+  color               : rgba(35, 255, 215, 1);
+  text-align          : center;
+  line-height         : 91.0px;
+}
+
+.map1 {
+  height              : 500px;
+  box-sizing          : border-box;
+  width               : 80%;
+  position            : relative;
+  margin-left         : 10%;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+
+.sign {
+  top                 : 30px;
+  padding-right       : 6px;
+  padding-top         : 10px;
+  float               : right;
+  width               : 125px;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(35, 255, 215, 1);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+
+.t1 {
+  text-shadow: 2px 2px rgba(15,15,15,.5);
+}
+.inputtex {
+  padding-top: 25px;
+  background-color: rgba(242, 227, 201, 1.0);
+  width: 70%;
+  position: relative;
+  text-align: center;
+  margin-left: 15%
+}
+
+#container{
+  padding: 20px;
+  margin:auto;
+  padding-top: 50px;
+  width:70%;
+  position:relative;
+  outline:0px solid #060;
+}
+
+#container input[type="text"]{
+  width:80%;
+  height:30px;
+  font-family         : "Arial-ItalicMT", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(97, 94, 94, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+  background-color    : rgba(242, 227, 201, 1.0);
+}
+#container input[type = "submit"]{
+  padding: 0;
+  height : 36px;
+  width: 18%;
+  float: right;
+  background-color    : rgba(35, 255, 215, 1);
+
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24.0px;
+  color: rgba(0, 0, 0, 1.0);
+  text-align: center;
+
+}
+a:link{color:rgba(35, 255, 215, 1);}
+a:visited{color:rgba(15, 240, 200, 1);}
+a:hover{color:rgba(20, 250, 205, 1);}
+a:active{color:rgba(35, 255, 215, 1);}
